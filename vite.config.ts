@@ -6,7 +6,7 @@ dns.setDefaultResultOrder('verbatim')
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/your-repo-name/', // Must match your GitHub repo name
+  base: '/SPassGen/', // Must match your GitHub repo name
   plugins: [react()],
   server: {
   port: 8080,

@@ -171,13 +171,13 @@ function App() {
           <div className="character-sets-group">
             {characterSetOptions.map(option => (
               <div key={option.id} className="checkbox-item">
+                <label htmlFor={option.id}>{option.label}</label>
                 <input
                   type="checkbox"
                   id={option.id}
                   checked={option.enabled}
                   onChange={() => handleCharacterSetChange(option.id)}
                 />
-                <label htmlFor={option.id}>{option.label}</label>
               </div>
             ))}
           </div>
